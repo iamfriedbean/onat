@@ -9,45 +9,59 @@ ONAT is a comprehensive penetration testing toolkit designed for conducting a va
 - Privileged access on the host machine.
 
 ## Installation
-1. Clone the repository:
+1. Clone the repository
 2. Move into directory
 3. Run the program
 
-## Main Menu
-ONAT presents the following core capabilities:
+## Functionalities and Use Cases
 
-### Wireless Basic
-1. **Scan for Wireless Networks:** Detects nearby wireless networks.
-2. **Capture and Crack WPA/WPA2:** Captures handshake data and attempts to crack WPA/WPA2 passwords.
+1. **Scan for Wireless Networks**
+   - **Function:** Identifies nearby wireless networks.
+   - **Use Case:** Provides reconnaissance to outline potential targets for penetration testing.
 
-### Wireless Advanced
-3. **Deauthentication Attack:** Disconnects clients from a network.
-4. **Beacon Flood Attack:** Overwhelms networks with fake beacon frames.
-5. **WIDS Confusion Attack:** Manipulates Wireless Intrusion Detection Systems.
-6. **Evil Twin Attack:** Creates a fake access point to intercept network traffic.
+2. **Capture and Crack WPA/WPA2**
+   - **Function:** Captures network handshakes and attempts to crack WPA/WPA2 passwords.
+   - **Use Case:** Exploits weak security configurations to verify access vulnerabilities.
 
-### Other Attacks
-7. **Run Network Isolation Scan:** Identifies isolated network segments.
-8. **Launch Protocol Attacks:** Access further protocol-based attacks (see below).
-9. **ARP Poisoning:** Performs ARP cache poisoning to intercept traffic.
+3. **Deauthentication Attack**
+   - **Function:** Disconnects clients from networks.
+   - **Use Case:** Creates disruption or forces clients to reconnect to capture handshake data.
 
-### Utilities
-- **Wi-Fi Site Survey (96):** Conducts a detailed survey of available networks.
-- **Enable Wireless Monitor Mode (97):** Switches the network adapter to monitor mode.
-- **Stop Monitor Mode (98):** Reverts the adapter to its default mode.
-- **Exit (99):** Exits the application.
+4. **Beacon Flood Attack**
+   - **Function:** Sends numerous fake access point signals.
+   - **Use Case:** Obfuscates legitimate networks and tests network monitoring capabilities.
 
-## Launch Protocol Attacks Submenu
-1. **STP TCN Attack (DOS):** Disrupts Spanning Tree Protocol with Topology Change Notifications.
-2. **STP CONF Attack (DOS):** Attacks STP via Configuration BPDUs.
-3. **STP Claim Root Role:** Asserts the attacking device as the STP root.
-4. **STP Claim Root Role with MITM:** Converts the attack into a Man-in-the-Middle attack.
-5. **CDP Flood Attack (Cisco Devices Only):** Overloads Cisco Discovery Protocol.
-6. **DHCP Rogue Server:** Sets up a fake DHCP server to supply malicious IP configurations.
-7. **DHCP Starvation Attack (Discover DOS):** Exhausts the DHCP server's IP pool.
-8. **DTP Enable Trunking (Cisco Devices Only):** Forces trunking mode on a switch port.
-9. **Exit (99):** Returns to the main menu.
+5. **WIDS Confusion Attack**
+   - **Function:** Generates false alarms within Wireless Intrusion Detection Systems.
+   - **Use Case:** Assesses the reliability and response of WIDS to spoofed data.
 
+6. **Evil Twin Attack**
+   - **Function:** Creates a rogue access point that mimics legitimate networks.
+   - **Use Case:** Captures user credentials and tests susceptibility to phishing attacks.
+
+7. **Run Network Isolation Scan**
+   - **Function:** Detects isolated network segments.
+   - **Use Case:** Identifies weaknesses in network segmentation policies.
+
+8. **Launch Protocol Attacks**
+   - **Function:** Engages in attacks on various network protocols, such as STP, CDP, and DHCP.
+   - **Use Case:** Exploits potential misconfigurations, particularly in Cisco environments.
+
+9. **ARP Poisoning**
+   - **Function:** Intercepts or alters network communications by corrupting ARP tables.
+   - **Use Case:** Facilitates man-in-the-middle attacks or disrupts network traffic.
+
+10. **Wi-Fi Site Survey**
+    - **Function:** Conducts in-depth analysis of wireless networks in the area.
+    - **Use Case:** Provides insights into network configuration and potential vulnerabilities.
+
+11. **Enable Wireless Monitor Mode**
+    - **Function:** Switches the wireless adapter into monitor mode.
+    - **Use Case:** Enables packet capture and in-depth traffic analysis for security testing.
+
+12. **Stop Monitor Mode**
+    - **Function:** Reverts the wireless adapter to managed mode.
+    - **Use Case:** Ensures normal operation after testing activities are completed.
 ## Disclaimer
 ONAT must only be used in environments where you have explicit permission to test. Unauthorized access or attacks on networks where you are not permitted could result in legal consequences. Ensure you follow ethical guidelines and legal requirements.
 
