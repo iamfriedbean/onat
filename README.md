@@ -1,7 +1,7 @@
 # ONAT - OPN Network Audit Tool
 
 ## Overview
-ONAT is a comprehensive penetration testing toolkit designed for conducting a variety of network attacks. It's equipped to handle wireless and wired network attacks, offering tools for both basic and advanced users.
+ONAT is a comprehensive penetration testing toolkit designed for conducting a variety of network attacks. It's equipped to handle wireless and wired network attacks, offering tools for both basic and advanced users. Designed to facilitate network audits, it integrates various tools to perform tasks and simplifies the process by providing a command-line interface to interact with these tasks in a structured manner. 
 
 ## Requirements
 - A compatible wireless network adapter with support for monitoring mode.
