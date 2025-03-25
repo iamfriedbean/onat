@@ -11,8 +11,9 @@ ONAT is a comprehensive penetration testing toolkit designed for conducting a va
 ## Installation
 1. Clone the repository
 2. Move into directory (maintain file structure)
-3. Run the program (you may also need adding permission to each executable: e.g., chmod +x onat, chmod +x bin/*)
-4. Optionally, you can compile the src files with gcc if you're having compatibility issues 
+3. You may also need adding permission to each executable: e.g., chmod +x onat, chmod +x bin/*)
+4. Optionally, you can compile the src files with gcc if you're having compatibility issues
+5. Run the main program 'sudo ./onat' 
 
 ## Functionalities and Use Cases
 
