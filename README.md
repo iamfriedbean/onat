@@ -1,4 +1,4 @@
-# ONAT - OPN Network Audit Tool
+# ONAT - OPN Network Attack Tool
 
 ## Overview
 ONAT is a comprehensive penetration testing toolkit designed for conducting a variety of network attacks. It's equipped to handle wireless and wired network attacks, offering tools for both basic and advanced users. Designed to facilitate network audits, it integrates various tools to perform tasks and simplifies the process by providing a command-line interface to interact with these tasks in a structured manner. 
@@ -10,8 +10,9 @@ ONAT is a comprehensive penetration testing toolkit designed for conducting a va
 
 ## Installation
 1. Clone the repository
-2. Move into directory
-3. Run the program
+2. Move into directory (maintain file structure)
+3. Run the program (you may also need adding permission to each executable: e.g., chmod +x onat, chmod +x bin/*)
+4. Optionally, you can compile the src files with gcc if you're having compatibility issues 
 
 ## Functionalities and Use Cases
 
