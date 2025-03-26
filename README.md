@@ -15,6 +15,14 @@ ONAT is a comprehensive penetration testing toolkit designed for conducting a va
 4. Optionally, you can compile the src files with gcc if you're having compatibility issues
 5. Run the main program 'sudo ./onat' 
 
+```
+git clone https://github.com/iamfriedbean/onat.git
+cd onat
+chmod u+x onat
+chmod u+x bin/*
+sudo ./onat
+``` 
+
 ## Functionalities and Use Cases
 
 1. **Scan for Wireless Networks**
