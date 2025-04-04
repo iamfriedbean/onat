@@ -1,3 +1,10 @@
+#if 0
+	shc Version 4.0.3, Generic Shell Script Compiler
+	GNU GPL Version 3 Md Jahidul Hamid <jahidulhamid@yahoo.com>
+
+	shc -r -f evil_twin_deauth.sh 
+#endif
+
 static  char data [] = 
 #define      text_z	2971
 #define      text	((&data[113]))

@@ -1,3 +1,10 @@
+#if 0
+	shc Version 4.0.3, Generic Shell Script Compiler
+	GNU GPL Version 3 Md Jahidul Hamid <jahidulhamid@yahoo.com>
+
+	shc -r -f net_isolation_scan.sh 
+#endif
+
 static  char data [] = 
 #define      chk1_z	22
 #define      chk1	((&data[5]))
